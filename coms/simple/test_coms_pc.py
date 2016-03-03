@@ -51,7 +51,7 @@ if __name__ == '__main__':
         
     if ser.isOpen():
          print(ser.name + ' is open...')
-         ser.write("Hello from the PC side")
+         #ser.write("Hello from the PC side")
          
      
     while ser.isOpen():
@@ -65,5 +65,5 @@ if __name__ == '__main__':
             ser.flushInput()
             ser.write(output_cmd.encode('ascii')+'\r\n')
             time.sleep(1)
-            out = ser.read()
+            out = ser.readline()
             print('Received...'+out)
