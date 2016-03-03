@@ -51,9 +51,11 @@ if __name__ == '__main__':
     global debug
     #debug = True
     debug = False
+    sleep_time = 0
+    tout = 0.1
     try:
         # open the serial port
-        ser = serial.Serial(port_id, 9600, bytesize=7, parity='O', stopbits=1, timeout=1, xonxoff=0, rtscts=0)
+        ser = serial.Serial(port_id, 9600, bytesize=7, parity='O', stopbits=1, timeout=tout, xonxoff=0, rtscts=0)
     except:
         print('Can''t open ' + port_id + ' port')
         raw_input("Press Enter to exit")
@@ -74,6 +76,6 @@ if __name__ == '__main__':
             output_cmd = build_message(cmd)
             ser.flushInput()
             ser.write(output_cmd.encode('ascii')+'\r\n')
-            time.sleep(1)
+            time.sleep(sleep_time)
             out = ser.readline()
             print('Received...'+out)

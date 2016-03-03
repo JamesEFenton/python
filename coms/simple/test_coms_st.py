@@ -97,9 +97,10 @@ if __name__ == '__main__':
     adc_value2 = 0
     #debug = True
     debug = False
+    tout = 0.1
     try:
         # open the serial port
-        ser = serial.Serial(port_id, 9600, bytesize=7, parity='O', stopbits=1, timeout=1, xonxoff=0, rtscts=0)
+        ser = serial.Serial(port_id, 9600, bytesize=7, parity='O', stopbits=1, timeout=tout, xonxoff=0, rtscts=0)
     except:
         print('Can''t open com port')
         raw_input("Press Enter to exit")
