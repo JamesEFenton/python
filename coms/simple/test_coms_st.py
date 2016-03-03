@@ -6,11 +6,11 @@ port_id = "COM10"
 def build_message(command):
     if(-1!=command.find("write")):
         command1 = "w"
-        print("Let's write")
+        debug_print("Let's write")
         key = command[6:13]
     elif(-1!=command.find("read")):
         command1 = "r"
-        print("Let's read")
+        debug_print("Let's read")
         key = command[5:12]
     else:
         print("I don't understand your read/write command")
@@ -20,7 +20,7 @@ def build_message(command):
         choices = {'motor_1': 1, 'motor_2': 2, 'motor_3': 3, 'adc_1': 10, 'adc_2': 11}
         result = choices.get(key, 'not_found')
         if(result != 'not_found'):
-            print("to : " + key)
+            debug_print("to : " + key)
             command = command1 + str(result)
         else:
             print("I don't understand your device: " + key)
@@ -34,12 +34,12 @@ def decode_message(message):
         write = True
         read = False
         write_access = True
-        print("Let's write to ")
+        debug_print("Let's write to ")
     elif(message[0] == "r"):
         write = False
         read = True
         write_access = False
-        print("Let's read from ")
+        debug_print("Let's read from ")
     else:
         write = False
         read = False
@@ -50,7 +50,7 @@ def decode_message(message):
         choices = {'0001':'motor_1', '0002':'motor_2', '0003':'motor_3', '0010':'adc_1', '0011':'adc_2'}
         device = choices.get(key, 'not_found')
         if(device != 'not_found'):
-            print("device : " + device)
+            debug_print("device : " + device)
             if(len(message) > 8):
                 value = int(message[5:9])
             else:
@@ -83,11 +83,20 @@ def drive_adc(access, dev, val):
         value = adc_value2 = adc_value2 + 1
     return str(value)
 
+def debug_print(message):
+    global debug
+    if (debug != False):
+        print(message)
+        
 if __name__ == '__main__':
     global adc_value1
-    global adc_value2 
+    global adc_value2
+    global debug
+    
     adc_value1 = 0
     adc_value2 = 0
+    #debug = True
+    debug = False
     try:
         # open the serial port
         ser = serial.Serial(port_id, 9600, bytesize=7, parity='O', stopbits=1, timeout=1, xonxoff=0, rtscts=0)
@@ -109,10 +118,10 @@ if __name__ == '__main__':
         if(len(output_message) > 0):
             print("command recieved: " + command)
             access, dev, val = decode_message(command)
-            print("decoded device: " + dev)
-            print("decoded value: " + str(val))
+            debug_print("decoded device: " + dev)
+            debug_print("decoded value: " + str(val))
             output_message = simulate_cpld(access, dev, val)
-            print("Sending back:" + output_message)
+            debug_print("Sending back:" + output_message)
             ser.write(output_message.encode('ascii')+'\r\n')
             #ser.write(command)
             
