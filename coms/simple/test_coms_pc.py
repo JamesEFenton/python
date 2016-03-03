@@ -17,11 +17,11 @@ def build_message(command):
         command1 = ""
         command = ""
     if(command!=""):
-        choices = {'motor_1': 1, 'motor_2': 2, 'motor_3': 3, 'adc_1': 10, 'adc_2': 11}
+        choices = {'motor_1': '0001', 'motor_2': '0002', 'motor_3': '0003', 'adc_1': '0010', 'adc_2': '0011'}
         result = choices.get(key, 'not_found')
         if(result != 'not_found'):
             print("to : " + key)
-            command = command1 + str(result)
+            command = command1 + result
         else:
             print("I don't understand your device: " + key)
             command = ""
@@ -48,9 +48,9 @@ if __name__ == '__main__':
         cmd = raw_input("Enter command or 'exit':")
         if cmd == 'exit':
             ser.close()
-            #exit()
         else:
             output_cmd = build_message(cmd)
+            ser.flushInput()
             ser.write(output_cmd.encode('ascii')+'\r\n')
             time.sleep(1)
             out = ser.read()
