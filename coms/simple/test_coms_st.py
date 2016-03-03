@@ -49,7 +49,7 @@ def decode_message(message):
         if(device != 'not_found'):
             print("device : " + device)
             if(len(message) > 8):
-                value = message[6:9]
+                value = message[5:9]
             else:
                 value = ""
         else:
@@ -78,7 +78,7 @@ while True:
         print("command recieved: " + command)
         dev, val = decode_message(command)
         print("decoded device: " + dev)
-        print("decoded device: " + val)
+        print("decoded value: " + val)
         print("Sending back:" + output_message)
         ser.write(output_message.encode('ascii')+'\r\n')
         #ser.write(command)
