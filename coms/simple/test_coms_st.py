@@ -1,15 +1,11 @@
 import serial
 import time
 
-
-# these are allowed
-# ser = serial.Serial("COM9", 9600, bytesize=8, parity='N', stopbits=1,timeout=1, xonxoff=0, rtscts=0)
-# ser = serial.Serial("COM9", 9600, bytesize=7, parity='N', stopbits=1,timeout=1, xonxoff=0, rtscts=0)
-# ser = serial.Serial("COM9", 9600, bytesize=7, parity='O', stopbits=1,timeout=1, xonxoff=0, rtscts=0)
+port_id = "COM10"
 
 try:
-    ser = serial.Serial("COM10", 9600, bytesize=7, parity='O', stopbits=1, timeout=1, xonxoff=0, rtscts=0)
     # open the serial port
+    ser = serial.Serial(port_id, 9600, bytesize=7, parity='O', stopbits=1, timeout=1, xonxoff=0, rtscts=0)
 except:
     print('Can''t open com port')
     raw_input("Press Enter to exit")
@@ -21,9 +17,10 @@ if ser.isOpen():
  
 while True:
     #time.sleep(2)
-    out = ser.read()
-    print(out)
-
+    command = ser.read()
+    print(command)
+    #echo it back
+    ser.write(command)
         
 ##    cmd = raw_input("Enter command or 'exit':")
 ##        # for Python 2
