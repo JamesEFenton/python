@@ -55,6 +55,13 @@ def select_test_command_file():
 
 if __name__ == '__main__':
     global debug
+    global baud_rate
+    # this works baud_rate = 115200
+    #baud_rate = 9600 # tout = 0.1 File transfer took: 75.853000164 seconds
+    #baud_rate = 115200 # tout = 0.1 File transfer took: 32.7369999886 seconds
+    #baud_rate = 230400 # tout = 0.1 File transfer took: 30.875 seconds
+    # this works but slow    baud_rate = 921600
+    baud_rate = 115200
     #debug = True
     debug = False
     file_running = False
@@ -62,7 +69,7 @@ if __name__ == '__main__':
     tout = 0.1
     try:
         # open the serial port
-        ser = serial.Serial(port_id, 9600, bytesize=7, parity='O', stopbits=1, timeout=tout, xonxoff=0, rtscts=0)
+        ser = serial.Serial(port_id, baud_rate, bytesize=7, parity='O', stopbits=1, timeout=tout, xonxoff=0, rtscts=0)
     except:
         print('Can''t open ' + port_id + ' port')
         raw_input("Press Enter to exit")
@@ -79,6 +86,7 @@ if __name__ == '__main__':
         if(file_running != False):
             #get another line test_file
             if(test_file!=""):
+                start = time.time()
                 with open(test_file) as infile:
                     found_input = False
                     for line in infile:
@@ -91,6 +99,9 @@ if __name__ == '__main__':
                         print('Received...'+out)
                 # Test file has been sent so clear flag
                 file_running = False
+                done = time.time()
+                elapsed = done - start
+                print("File transfer took: " + str(elapsed) + " seconds")
             else:
                 file_running = False
         else:
