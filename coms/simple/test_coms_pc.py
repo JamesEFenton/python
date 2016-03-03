@@ -1,3 +1,4 @@
+import Tkinter, tkFileDialog
 import serial
 import time
 
@@ -19,12 +20,9 @@ def build_message(command):
     elif(-1!=cmd[0].find("write")):
         command1 = "w"
         debug_print("Let's write")
-        #key = command[6:13]
-        #value = command[14:17]
     elif(-1!=cmd[0].find("read")):
         command1 = "r"
         debug_print("Let's read")
-        #key = command[5:12]
     else:
         print("I don't understand your read/write command")
         command1 = ""
@@ -47,10 +45,19 @@ def build_message(command):
             print("This is not a good value")
     return message
 
+def select_test_command_file():
+    test_dir = "C:\\Git\\GitHub\\python\\coms\\simple"
+    # Get file
+    root = Tkinter.Tk()
+    root.withdraw()
+    test_file = tkFileDialog.askopenfilename(initialdir=test_dir, filetypes=[("Test file","*.txt")])
+    return test_file
+
 if __name__ == '__main__':
     global debug
     #debug = True
     debug = False
+    file_running = False
     sleep_time = 0
     tout = 0.1
     try:
@@ -68,11 +75,34 @@ if __name__ == '__main__':
      
     while ser.isOpen():
         out = ser.read()
-        print(out)       
-        cmd = raw_input("Enter command or 'exit':")
-        if cmd == 'exit':
-            ser.close()
+        print(out)
+        if(file_running != False):
+            #get another line test_file
+            if(test_file!=""):
+                with open(test_file) as infile:
+                    found_input = False
+                    for line in infile:
+                        print(line)
+                        output_cmd = build_message(line)
+                        ser.flushInput()
+                        ser.write(output_cmd.encode('ascii')+'\r\n')
+                        time.sleep(sleep_time)
+                        out = ser.readline()
+                        print('Received...'+out)
+                # Test file has been sent so clear flag
+                file_running = False
+            else:
+                file_running = False
         else:
+            cmd = raw_input("Enter command or 'file' or 'exit':")
+            
+        if(cmd == 'file'):
+            file_running = True
+            test_file = select_test_command_file()
+            cmd = ""
+        elif(cmd == 'exit'):
+            ser.close()
+        elif(cmd != ''):
             output_cmd = build_message(cmd)
             ser.flushInput()
             ser.write(output_cmd.encode('ascii')+'\r\n')
