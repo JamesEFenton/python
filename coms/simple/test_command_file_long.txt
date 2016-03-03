@@ -1,0 +1,1917 @@
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 3201
+write motor_2 3302
+write motor_3 3403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+write motor_1 1201
+write motor_2 1302
+write motor_3 1403
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
+read adc_1
+read adc_2
