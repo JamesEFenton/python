@@ -45,6 +45,14 @@ def build_message(command):
             print("This is not a good value")
     return message
 
+def select_log_directory():
+    test_dir = "C:\\Git\\GitHub\\python\\coms\\simple"
+    # Choose an output folder
+    root = Tkinter.Tk()
+    root.withdraw()
+    out_folder = tkFileDialog.askdirectory(initialdir=test_dir)
+    return out_folder
+
 def select_test_command_file():
     test_dir = "C:\\Git\\GitHub\\python\\coms\\simple"
     # Get file
@@ -53,6 +61,11 @@ def select_test_command_file():
     test_file = tkFileDialog.askopenfilename(initialdir=test_dir, filetypes=[("Test file","*.txt")])
     return test_file
 
+def write_log_file_header(logfile, test_file, log_filename):
+    logfile.write("Freya comms log created: " + time.asctime() + "\n\n")
+    logfile.write("Test file executed: " + test_file + "\n\n")
+    logfile.write("Log file recorded: " + log_filename + "\n\n")    
+   
 if __name__ == '__main__':
     global debug
     global baud_rate
@@ -87,16 +100,30 @@ if __name__ == '__main__':
             #get another line test_file
             if(test_file!=""):
                 start = time.time()
+                try:
+                                    # Write to output file
+                    results_file = log_directory + "\\comms_log.csv"
+                    logfile = open(results_file, 'w+')
+                    write_log_file_header(logfile, test_file, results_file)
+                except:
+                    print("Can't open log file: " + results_file)
+                        
                 with open(test_file) as infile:
                     found_input = False
                     for line in infile:
-                        print(line)
+                        timestamp = time.strftime('%X')
+                        out = (timestamp + "," + line)
+                        print(out)
+                        logfile.write(out)
                         output_cmd = build_message(line)
                         ser.flushInput()
                         ser.write(output_cmd.encode('ascii')+'\r\n')
                         time.sleep(sleep_time)
                         out = ser.readline()
-                        print('Received...'+out)
+                        print('Received,'+out)
+                        out = (timestamp + "," + out)
+                        logfile.write(out)
+                logfile.close()
                 # Test file has been sent so clear flag
                 file_running = False
                 done = time.time()
@@ -110,6 +137,8 @@ if __name__ == '__main__':
         if(cmd == 'file'):
             file_running = True
             test_file = select_test_command_file()
+            if (test_file!=""):
+                log_directory = select_log_directory()
             cmd = ""
         elif(cmd == 'exit'):
             ser.close()
